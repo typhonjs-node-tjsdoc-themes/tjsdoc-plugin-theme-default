@@ -1,0 +1,35 @@
+{
+  "presets": ["env", "stage-2"],
+
+  "plugins":
+  [
+    "add-module-exports",
+    ["module-resolver", {
+      "root": ["."],
+      "alias":
+      {
+      }
+    }],
+    "transform-runtime"
+  ],
+
+  "env":
+  {
+    "tjsdoc-dev":
+    {
+      "plugins":
+      [
+        "add-module-exports",
+        ["module-resolver", {
+          "root": ["."],
+          "cwd": "babelrc",
+          "alias":
+          {
+             "typhonjs-theme": "../../typhonjs-node-theme/typhonjs-theme/src/Theme.js"
+          }
+        }],
+        "transform-runtime"
+      ]
+    }
+  }
+}

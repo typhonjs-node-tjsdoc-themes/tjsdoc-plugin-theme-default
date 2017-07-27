@@ -1,0 +1,29 @@
+/* Theme (light) - manual.css */
+
+.manual-index .manual-card-wrap > h1 span {
+   color: #555;
+}
+
+.manual-index .manual-card {
+   border: solid 1px rgba(230, 230, 230, 0.84);
+}
+
+.manual-index .manual-card > a {
+   background: rgba(210, 210, 210, 0.1);
+}
+
+.manual-index .manual-user-index {
+   border-bottom: solid 1px #ddd;
+}
+
+.manual-toc-title a:hover {
+   color: #039BE5;
+}
+
+.navigation .manual-toc [class^="indent-h"] a {
+   color: #666;
+}
+
+.navigation .manual-toc .indent-h1 a {
+   color: #555;
+}

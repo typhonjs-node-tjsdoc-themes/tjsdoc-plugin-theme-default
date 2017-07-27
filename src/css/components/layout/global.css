@@ -1,0 +1,26 @@
+/* Theme (light) - global.css */
+
+html
+{
+   font-family: 'Source Sans Pro', 'Roboto', sans-serif;
+   color: #555;
+   background-color: var(--tjsdoc-theme-background); /*#fff;*/
+}
+
+a {
+   color: #039BE5;
+}
+
+h1 {
+   font-size: 34px;
+   border-bottom: solid 1px #ddd;
+}
+
+h2 {
+   font-size: 20px;
+   border-bottom: solid 1px #ddd;
+}
+
+h3 {
+   font-size: 16px;
+}

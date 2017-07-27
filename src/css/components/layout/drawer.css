@@ -1,0 +1,17 @@
+.mdc-temporary-drawer__drawer
+{
+   background: var(--tjsdoc-theme-background);
+}
+
+.mdc-temporary-drawer::before
+{
+   background: transparent;
+}
+
+@media (--medium-screen-width)
+{
+   .mdc-temporary-drawer::before
+   {
+      background: rgba(0, 0, 0, 0.4);
+   }
+}

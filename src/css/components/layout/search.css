@@ -1,0 +1,23 @@
+/* Theme (light) - search.css - search box */
+
+.search-result
+{
+   background: var(--tjsdoc-theme-background); /*white;*/
+   box-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+.search-result-import-path
+{
+   color: #aaa;
+}
+
+.search-result li.selected
+{
+   background: #ddd;
+}
+
+.search-result li.search-separator
+{
+   background: rgb(37, 138, 175);
+   color: white;
+}

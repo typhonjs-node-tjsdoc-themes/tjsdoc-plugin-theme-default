@@ -1,0 +1,14 @@
+/* Theme (light) details.css - details component - used in details.html */
+h3 .right-info {
+   font-size: 14px;
+}
+
+/*table.params used in properties.html*/
+table.params thead {
+   background: #eee;
+   color: #aaa;
+}
+
+table.params td {
+   border: solid 1px #ddd;
+}

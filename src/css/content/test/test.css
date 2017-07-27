@@ -1,0 +1,13 @@
+/* Theme (light) - test.css */
+
+table.test-summary thead {
+   background: #fafafa;
+}
+
+table.test-summary tbody tr:hover {
+   background-color: #eee;
+}
+
+table.test-summary td {
+   border: solid 1px #ddd;
+}

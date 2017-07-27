@@ -1,0 +1,55 @@
+:root
+{
+   --tjsdoc-theme-background: #fff;
+
+   /* Defines colors for the doc kind types */
+   --tjsdoc-theme-kind-ModuleClass: #009800;
+   --tjsdoc-theme-kind-ModuleClass-light: color(var(--tjsdoc-theme-kind-ModuleClass) tint(75%));
+   --tjsdoc-theme-kind-ModuleInterface: #fbca04;
+   --tjsdoc-theme-kind-ModuleInterface-light: color(var(--tjsdoc-theme-kind-ModuleInterface) tint(75%));
+   --tjsdoc-theme-kind-ModuleFunction: #6b0090;
+   --tjsdoc-theme-kind-ModuleFunction-light: color(var(--tjsdoc-theme-kind-ModuleFunction) tint(75%));
+   --tjsdoc-theme-kind-ModuleAssignment: #eb6420;
+   --tjsdoc-theme-kind-ModuleAssignment-light: color(var(--tjsdoc-theme-kind-ModuleAssignment) tint(75%));
+   --tjsdoc-theme-kind-ModuleVariable: #eb6420;
+   --tjsdoc-theme-kind-ModuleVariable-light: color(var(--tjsdoc-theme-kind-ModuleVariable) tint(75%));
+   --tjsdoc-theme-kind-VirtualTypedef: #db001e;
+   --tjsdoc-theme-kind-VirtualTypedef-light: color(var(--tjsdoc-theme-kind-VirtualTypedef) tint(75%));
+   --tjsdoc-theme-kind-VirtualExternal: #0738c3;
+   --tjsdoc-theme-kind-VirtualExternal-light: color(var(--tjsdoc-theme-kind-VirtualExternal) tint(75%));
+
+
+   --tjsdoc-theme-primary: #3f51b5;
+   --tjsdoc-theme-accent: #ff4081;
+
+
+   --tjsdoc-theme-text-primary-on-primary: white;
+   --tjsdoc-theme-text-secondary-on-primary: rgba(255, 255, 255, 0.7);
+   --tjsdoc-theme-text-hint-on-primary: rgba(255, 255, 255, 0.5);
+   --tjsdoc-theme-text-disabled-on-primary: rgba(255, 255, 255, 0.5);
+   --tjsdoc-theme-text-icon-on-primary: rgba(255, 255, 255, 0.5);
+
+   --tjsdoc-theme-text-primary-on-accent: white;
+   --tjsdoc-theme-text-secondary-on-accent: rgba(255, 255, 255, 0.7);
+   --tjsdoc-theme-text-hint-on-accent: rgba(255, 255, 255, 0.5);
+   --tjsdoc-theme-text-disabled-on-accent: rgba(255, 255, 255, 0.5);
+   --tjsdoc-theme-text-icon-on-accent: rgba(255, 255, 255, 0.5);
+
+   --tjsdoc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
+   --tjsdoc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+   --tjsdoc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
+   --tjsdoc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
+   --tjsdoc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
+
+   --tjsdoc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);
+   --tjsdoc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+   --tjsdoc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
+   --tjsdoc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+   --tjsdoc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);
+
+   --tjsdoc-theme-text-primary-on-dark: white;
+   --tjsdoc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+   --tjsdoc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+   --tjsdoc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+   --tjsdoc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);
+}

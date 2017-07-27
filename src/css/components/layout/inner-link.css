@@ -1,0 +1,5 @@
+/* Theme (light) - Supports inner-link.js script to highlight sections based on URL */
+.inner-link-active {
+   background: #039BE5 !important;
+   color: #fff !important;
+}

@@ -1,0 +1,7 @@
+/* Theme (light) - unused.css - unused??? unknown??? */
+
+/* version is used just not in an h1 tag */
+h1 .version,
+h1 .url a {
+   color: #aaa;
+}

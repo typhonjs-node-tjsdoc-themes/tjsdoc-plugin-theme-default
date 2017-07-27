@@ -1,0 +1,46 @@
+{
+  "name": "tjsdoc-plugin-theme-default",
+  "version": "0.0.1",
+  "description": "Provides the default light theme for TJSDoc and all resources for theme extension.",
+  "author": "typhonrt",
+  "homepage": "https://tjsdoc.typhonjs.io/",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typhonjs-node-tjsdoc-themes/tjsdoc-plugin-theme-default"
+  },
+  "scripts": {
+    "build": "babel-node ./node_modules/typhonjs-npm-scripts-build-babel/scripts/build.js",
+    "eslint": "eslint .",
+    "dev-test": "BABEL_ENV=tjsdoc-dev babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha.js dev_test",
+    "dev-test-coverage": "BABEL_ENV=tjsdoc-dev babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha-istanbul.js dev_test",
+    "dev-test-npm": "BABEL_ENV=tjsdoc-dev babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha.js dev_test_npm",
+    "dev-tjsdoc": "BABEL_ENV=tjsdoc-dev babel-node ../../typhonjs-node-tjsdoc/tjsdoc/src/TJSDocCLI.js -c .tjsdocrc-local",
+    "prepublish": "babel-node ./node_modules/typhonjs-npm-scripts-publish/scripts/prepublish.js",
+    "test": "babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha.js",
+    "test-coverage": "babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha-istanbul.js"
+  },
+  "dependencies": {
+    "typhonjs-theme": "<=0.1.0"
+  },
+  "devDependencies": {
+    "typhonjs-config-eslint": "^0.5.0",
+    "typhonjs-npm-build-test": "^0.7.0"
+  },
+  "keywords": [
+    "typhonjs",
+    "tjsdoc",
+    "theme",
+    "default"
+  ],
+  "files": [
+    "dist",
+    "src",
+    ".tjsdocrc",
+    "AUTHORS.md"
+  ],
+  "main": "dist/ThemeDefault.js",
+  "bugs": {
+    "url": "https://github.com/typhonjs-node-tjsdoc/tjsdoc/issues"
+  }
+}

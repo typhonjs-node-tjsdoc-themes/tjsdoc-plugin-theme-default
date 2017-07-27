@@ -1,0 +1,50 @@
+/* Theme (light) - code.css */
+code {
+   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+pre.prettyprint, pre > code {
+   background-color: #f5f5f5;
+}
+
+p > code,
+li > code {
+   font-size: 85%;
+   background-color: rgba(0,0,0,0.04);
+}
+
+.code {
+   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+   font-size: 13px;
+}
+
+.import-path pre.prettyprint,
+.import-path pre.prettyprint code {
+   background: var(--tjsdoc-theme-background); /*white;*/
+}
+
+pre.raw-source-code > code {
+   font-size: 12px;
+   background: var(--tjsdoc-theme-background); /*#fff;*/
+   border: solid 1px #ddd;
+}
+
+pre.raw-source-code > code > ol li:before {
+   color: #aaa;
+}
+
+pre.source-code ol {
+   background: #eee;
+}
+
+pre.source-code li {
+   background: var(--tjsdoc-theme-background); /*white;*/
+}
+
+pre.source-code.line-number li.active {
+   background: rgb(255, 255, 150) !important;
+}
+
+pre.source-code.line-number li.error-line {
+   background: #ffb8bf;
+}

@@ -1,0 +1,9 @@
+/* Theme (light) - extends-chain.css */
+
+.expression-extends .prettyprint {
+   background: var(--tjsdoc-theme-background); /*white;*/
+}
+
+.extends-chain {
+   border-bottom: 1px solid #ddd;
+}

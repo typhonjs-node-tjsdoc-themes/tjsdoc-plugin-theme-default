@@ -1,0 +1,47 @@
+/* Theme (light) - navigation.css - /components/navigation/old/css */
+
+.navigation li a {
+   color: #666;
+}
+
+.navigation .kind-ModuleClass
+{
+   color: var(--tjsdoc-theme-kind-ModuleClass);
+   background-color: var(--tjsdoc-theme-kind-ModuleClass-light);
+}
+
+.navigation .kind-ModuleInterface
+{
+   color: var(--tjsdoc-theme-kind-ModuleInterface);
+   background-color: var(--tjsdoc-theme-kind-ModuleInterface-light);
+}
+
+.navigation .kind-ModuleFunction
+{
+   color: var(--tjsdoc-theme-kind-ModuleFunction);
+   background-color: var(--tjsdoc-theme-kind-ModuleFunction-light);
+}
+
+.navigation .kind-ModuleAssignment
+{
+   color: var(--tjsdoc-theme-kind-ModuleAssignment);
+   background-color: var(--tjsdoc-theme-kind-ModuleAssignment-light);
+}
+
+.navigation .kind-ModuleVariable
+{
+   color: var(--tjsdoc-theme-kind-ModuleVariable);
+   background-color: var(--tjsdoc-theme-kind-ModuleVariable-light);
+}
+
+.navigation .kind-VirtualTypedef
+{
+   color: var(--tjsdoc-theme-kind-VirtualTypedef);
+   background-color: var(--tjsdoc-theme-kind-VirtualTypedef-light);
+}
+
+.navigation .kind-VirtualExternal
+{
+   color: var(--tjsdoc-theme-kind-VirtualExternal);
+   background-color: var(--tjsdoc-theme-kind-VirtualExternal-light);
+}

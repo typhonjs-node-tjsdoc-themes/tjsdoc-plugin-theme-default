@@ -1,0 +1,26 @@
+/* Theme (light) - github.css */
+.markdown table tr {
+   background-color: var(--tjsdoc-theme-background); /*#fff;*/
+   border-top: 1px solid #ccc;
+}
+
+.markdown table th,
+.markdown table td {
+   border: 1px solid #ddd;
+}
+
+.markdown table tr:nth-child(2n) {
+   background-color: #f8f8f8;
+}
+
+.markdown hr {
+   border-right: 0;
+   border-bottom: 1px solid #e5e5e5;
+   border-left: 0;
+   border-top: 0;
+}
+
+/** badge(.svg) does not have border */
+.markdown img:not([src*=".svg"]) {
+   box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}

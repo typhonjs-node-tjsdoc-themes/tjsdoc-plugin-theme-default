@@ -1,0 +1,23 @@
+/* Theme (light) - shared.css - shared across multiple templates / components */
+.content .detail > h3 {
+   color: black;
+   background-color: #f0f0f0;
+}
+
+.deprecated, .experimental {
+   border-left: solid 5px orange;
+}
+
+.description thead {
+   background: #999;
+   color: white;
+}
+
+.description table td,
+.description table th {
+   border: solid 1px #ddd;
+}
+
+.version, .since {
+   color: #aaa;
+}

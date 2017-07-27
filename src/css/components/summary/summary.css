@@ -1,0 +1,8 @@
+/* Theme (light) - summary.css - used only in summary.html template / summary component */
+table.summary thead {
+   background: #fafafa;
+}
+
+table.summary td {
+   border: solid 1px #ddd;
+}

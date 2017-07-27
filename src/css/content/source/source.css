@@ -1,0 +1,21 @@
+/* Theme (light) - source.css */
+
+table.files-summary tbody tr:hover {
+   background: #eee;
+}
+
+table.files-summary thead {
+   background: #fafafa;
+}
+
+table.files-summary td {
+   border: solid 1px #ddd;
+}
+
+table.files-summary .coverage-count {
+   color: #aaa;
+}
+
+.total-coverage-count {
+   color: #666;
+}

@@ -1,0 +1,18 @@
+/* Theme (light) - class.css use just in class.html template */
+.header-notice {
+   font-size: 14px;
+   color: #aaa;
+}
+
+.inherited-summary thead a {
+   color: white;
+}
+
+.inherited-summary .summary .toggle {
+   font-size: 12px;
+   cursor: pointer;
+}
+
+.instance-docs {
+   border-left: solid 5px orange;
+}
