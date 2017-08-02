@@ -3,10 +3,10 @@
    background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.tjsdoc-toolbar > section > a {
+.tjsdoc-toolbar__menu > a {
    color: #444;
 }
 
-.tjsdoc-toolbar > section > a.repo-url-github {
+.tjsdoc-toolbar__menu > a.repo-url-github {
    background-image: url("../images/scm/github.png");
 }

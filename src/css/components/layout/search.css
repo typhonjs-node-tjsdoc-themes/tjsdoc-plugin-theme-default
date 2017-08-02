@@ -1,4 +1,7 @@
 /* Theme (light) - search.css - search box */
+.search-icon {
+   background-image: url("../images/search.png");
+}
 
 .search-result
 {
