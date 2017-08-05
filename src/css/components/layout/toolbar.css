@@ -7,6 +7,6 @@
    color: #444;
 }
 
-.tjsdoc-toolbar__menu > a.repo-url-github {
+.tjsdoc-toolbar__menu > a.scm-github {
    background-image: url("../images/scm/github.png");
 }
