@@ -4,10 +4,6 @@
    color: #aaa;
 }
 
-.inherited-summary thead a {
-   color: white;
-}
-
 .inherited-summary .summary .toggle {
    font-size: 12px;
    cursor: pointer;

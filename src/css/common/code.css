@@ -9,13 +9,11 @@ pre.prettyprint, pre > code {
 
 p > code,
 li > code {
-   font-size: 85%;
    background-color: rgba(0,0,0,0.04);
 }
 
 .code {
    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-   font-size: 13px;
 }
 
 .import-path pre.prettyprint,
@@ -24,7 +22,6 @@ li > code {
 }
 
 pre.raw-source-code > code {
-   font-size: 12px;
    background: var(--tjsdoc-theme-background); /*#fff;*/
    border: solid 1px #ddd;
 }
